@@ -21,6 +21,6 @@ describe 'mongo::default' do
     it "should install mongodb" do
       expect(chef_run).to install_package("mongodb").with_version("3.2.20")
     end
-    
+     
   end
 end
